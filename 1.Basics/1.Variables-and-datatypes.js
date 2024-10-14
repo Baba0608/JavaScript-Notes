@@ -15,7 +15,9 @@ const c = true; // stores boolean true in variable in c.
  *  *  => multiplication
  *  /  => division
  *  %  => to get remainder
- * 
+ *
+ *  == will check if the value is same or not?
+ *  === will check if the value and datatype both are same or not?
  *  && => and
  *  || => or
  *  ^  => XOR
