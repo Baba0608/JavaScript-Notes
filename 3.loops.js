@@ -80,7 +80,7 @@ if (count == 2) {
 // Practice all these with while loop.
 
 // 7) print first 10 prime numbers.
-// Here we dont the range, but we know the condition 10 primes numbers. So, we will use while loop here.
+// Here we dont know the range, but we know the condition 10 primes numbers. So, we will use while loop here.
 
 let x = 0; // to count prime numbers
 let k = 2; // we will start from 2
