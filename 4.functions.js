@@ -77,5 +77,42 @@ function productOfFirstNNumbers(n) {
   return product;
 }
 
-let ans = magicNumber(4); // here magic number will return a value which we are storing in ans variable.
+let ans = magicNumber(4); // here magicNumber will return a value which we are storing in ans variable.
 console.log(ans); // printing the ans
+
+// Problems
+// (i) write a function to find the area of a square.
+function areaOfSquare(side) {
+  // area = side * side
+  let area = side * side; // instead we can directly return side * side
+  return area;
+}
+
+// (ii) complete the function to find area of rectangle.
+function areaOfRectange(length, breadth) {
+  // logic
+}
+
+// (iii) complete the function to find area of triangle (right angled triangle).
+// area formula = (base * height) / 2
+function areaOfTriangle(base, height) {
+  // logic
+}
+
+// (iv) complete the function to find area of circle
+function areaOfCircle(radius) {
+  // use pi(∏) = 3.14
+}
+
+// (v) You have 3 twenty rupee notes, 5 fifty rupee notes, 7 hundred rupee notes find total amount.
+// write a function to find total amount.
+function totalAmount(x, y, z) {
+  // x = number of twenty rupee notes
+  // y = number of fifty rupee notes
+  // x = number of hundred rupee notes
+  let twentyAmount = x * 20;
+  let fiftyAmount = y * 50;
+  let hundredAmount = z * 100;
+  return twentyAmount + fiftyAmount + hundredAmount;
+  // or you can directly return x * 20 + y * 50 + z * 100
+}

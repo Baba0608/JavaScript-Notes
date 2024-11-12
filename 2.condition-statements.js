@@ -122,3 +122,32 @@ if (s1 == s2 && s2 == s3 && s3 == s1) {
 } else {
   console.log("Isoceles Triangle");
 }
+
+// swap two numbers
+/**
+ * (i) using temporary variable
+ *
+ * let a = 10
+ * let b = 20
+ *
+ *  -> let temp = a (values after this step => a = 10 , b = 20 , temp = 10)
+ *  -> a = b (values after this step => a = 20 , b = 20 , temp = 10)
+ *  -> b = temp (values after this step => a = 20 , b = 10 , temp = 10)
+ *
+ *  now the a is storing 20, b is storing 10. The values are swapped.
+ *
+ * (ii) without using temporary variable
+ *
+ * let a = 10
+ * let b = 20
+ *
+ * a =  a + b (values after this step => a = 30 , b = 20)
+ *     10 + 20
+ *
+ * b = a  - b (values after this step => a = 30 , b = 10)
+ *     30 - 20
+ *
+ * a = a  - b (values after this step => a = 20 , b = 10)
+ *     30 - 10
+ *
+ */
